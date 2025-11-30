@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { ListingDataContext } from "../src/Context/ListingContext";
-import Nav from "../src/assets/Component/nav";
-import Card from "../src/assets/Component/Card";
-import Footer from "../src/assets/Component/Footer";
+import Nav from "../assets/Component/nav";
+import Card from "../assets/Component/Card";
+import Footer from "../assets/Component/Footer";
 
 function Home() {
     let {newListingData} = useContext(ListingDataContext)
