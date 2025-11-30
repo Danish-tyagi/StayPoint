@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 export const authDataContext = createContext();
 
 function AuthContext({children}) {
-    const serverUrl =  "http://localhost:8080";
+    const serverUrl =  "https://staypoint-7z5d.onrender.com";
 
     let[loading,setLoading] = useState(false)
 
