@@ -3,7 +3,7 @@ import { GiConfirmed } from "react-icons/gi"
 import { bookingDataContext } from "../src/Context/BookingContext";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import Star from "../src/assets/component/Star";
+import Star from "../src/assets/Component/Star";
 import axios from "axios";
 import UserContext, { userDataContext } from "../src/Context/UserContext";
 import { authDataContext } from "../src/Context/AuthContext";
