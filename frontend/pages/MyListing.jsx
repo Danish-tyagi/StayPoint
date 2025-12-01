@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import UserContext, { userDataContext } from "../src/Context/UserContext";
-import Card from "../src/assets/Component/Card";
+import Card from "../src/assets/component/Card";
 
 function MyListing() {
     let navigate = useNavigate()
